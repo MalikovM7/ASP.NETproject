@@ -16,14 +16,16 @@ namespace MVC_1
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            var con = builder.Configuration.GetConnectionString("DefaultConnection");
+            var con = builder.Configuration.GetConnectionString("cString");
             builder.Services.AddDbContext<AppDbContext>(options =>
-                options.UseInMemoryDatabase("con")); 
+                options.UseInMemoryDatabase("con"));
+
+            //builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
-            builder.Services.AddScoped<IServiceServise, ServiceService>();
+            
             builder.Services.AddScoped<IBaseRepository<ServiceModel>, BaseRepository<ServiceModel>>();
-
+            builder.Services.AddScoped<IBaseRepository<BlogPost>, BaseRepository<BlogPost>>();
 
             builder.Services.AddSingleton(new SmtpClient
             {
@@ -33,7 +35,10 @@ namespace MVC_1
                 EnableSsl = true,
             });
 
-            builder.Services.AddScoped<IContactPostService, ContactPostService>();
+            builder.Services.AddScoped<IServiceServise, ServiceService>();
+            builder.Services.AddScoped<IEmailService, EmailService>();
+            builder.Services.AddScoped<IContactService, ContactService>();
+            builder.Services.AddScoped<IBlogPostService, BlogPostService>();
 
             var app = builder.Build();
 
@@ -46,6 +51,7 @@ namespace MVC_1
             }
 
             app.UseHttpsRedirection();
+
             app.UseStaticFiles();
 
             app.UseRouting();

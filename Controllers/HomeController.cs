@@ -34,6 +34,13 @@ namespace MVC_1.Controllers
         }
 
 
+        public IActionResult Edit()
+        {
+            return View();
+
+        }
+
+
 
     }
 }

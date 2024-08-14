@@ -7,31 +7,26 @@ namespace MVC_1.Controllers
 
     public class ContactController : Controller
     {
+        private readonly IContactService _contactService;
 
-        private readonly IContactPostService _contactPostService;
-
-        public ContactController(IContactPostService contactPostService)
+        public ContactController(IContactService contactService)
         {
-            _contactPostService = contactPostService;
+            _contactService = contactService;
+        }
+
+        [HttpGet]
+        public IActionResult Contact()
+        {
+            return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> SendContactPost([FromBody] ContactPost contactPost)
+        public async Task<IActionResult> SendEmail(string fullname, string email, string subject, string content)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
 
-            await _contactPostService.SendContactPostAsync(contactPost);
+            var contactPost = await _contactService.SendContactEmailAsync( fullname,  email,  subject,  content);
 
-            return Ok();
+            return Ok(contactPost);
         }
-
-            public IActionResult Index()
-            {
-                return View();
-            }
-        
     }
 }
