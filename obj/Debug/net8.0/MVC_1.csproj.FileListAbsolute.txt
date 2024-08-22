@@ -259,3 +259,8 @@ C:\Users\vuqar\source\repos\MVC_1\bin\Debug\net8.0\runtimes\win\lib\net7.0\Micro
 C:\Users\vuqar\source\repos\MVC_1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\vuqar\source\repos\MVC_1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\vuqar\source\repos\MVC_1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\vuqar\source\repos\MVC_1\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\vuqar\source\repos\MVC_1\bin\Debug\net8.0\MailKit.dll
+C:\Users\vuqar\source\repos\MVC_1\bin\Debug\net8.0\MimeKit.dll
+C:\Users\vuqar\source\repos\MVC_1\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\vuqar\source\repos\MVC_1\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css

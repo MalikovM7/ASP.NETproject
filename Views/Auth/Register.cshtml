@@ -1,0 +1,29 @@
+﻿@using Domain.Models
+@model User
+
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <h2 class="text-center">Register</h2>
+            <form method="post" asp-controller="Auth" asp-action="Register">
+                <div class="form-group mb-3">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" asp-for="UserName" id="username" name="UserName" placeholder="Enter your username" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" asp-for="Email" id="email" name="Email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="password">Password</label>
+                    <input type="text" class="form-control" asp-for="Password" id="password" name="Password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Register</button>
+                <div class="text-center mt-3">
+                    <a href="/Account/Login">Already have an account? Login here</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

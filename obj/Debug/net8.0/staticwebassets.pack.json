@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MVC_1.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\Templates\\EmailTemplate.html",
+      "PackagePath": "staticwebassets\\assets\\Templates\\EmailTemplate.html"
+    },
+    {
       "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },

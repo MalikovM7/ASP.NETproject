@@ -57,6 +57,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.7.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.7, )"
@@ -74,6 +86,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.7.1, )"
             }
           },
           "imports": [
@@ -142,6 +162,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.7.1.1, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.7, )"
@@ -159,6 +187,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.7.1, )"
             }
           },
           "imports": [
@@ -231,6 +267,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.7.1.1, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.7, )"
@@ -248,6 +292,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.7.1, )"
             }
           },
           "imports": [
@@ -326,6 +378,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.7.1.1, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.7, )"
@@ -350,6 +410,10 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.20.1, )"
@@ -357,6 +421,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.7.1, )"
             }
           },
           "imports": [

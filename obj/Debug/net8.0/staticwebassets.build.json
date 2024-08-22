@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RiExAJCXBTT3z8cXjgntCe77fzThyiKjWdb9NFxvFPY=",
+  "Hash": "Cx3wIB0Zo/9ccgxohSBeuyMMfoMhFqPZrT33zmQWZP4=",
   "Source": "MVC_1",
   "BasePath": "_content/MVC_1",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MVC_1.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\Templates\\EmailTemplate.html",
+      "SourceId": "MVC_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\",
+      "BasePath": "_content/MVC_1",
+      "RelativePath": "assets/Templates/EmailTemplate.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Templates\\EmailTemplate.html"
     },
     {
       "Identity": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",

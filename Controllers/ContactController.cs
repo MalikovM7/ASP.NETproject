@@ -1,32 +1,32 @@
-﻿using Application.Services.Interfaces;
-using Domain.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿//using Application.Services.Interfaces;
+//using Domain.Models;
+//using Microsoft.AspNetCore.Mvc;
 
-namespace MVC_1.Controllers
-{
+//namespace MVC_1.Controllers
+//{
 
-    public class ContactController : Controller
-    {
-        private readonly IContactService _contactService;
+//    public class ContactController : Controller
+//    {
+//        private readonly IContactService _contactService;
 
-        public ContactController(IContactService contactService)
-        {
-            _contactService = contactService;
-        }
+//        public ContactController(IContactService contactService)
+//        {
+//            _contactService = contactService;
+//        }
 
-        [HttpGet]
-        public IActionResult Contact()
-        {
-            return View();
-        }
+//        [HttpGet]
+//        public IActionResult Contact()
+//        {
+//            return View();
+//        }
 
-        [HttpPost]
-        public async Task<IActionResult> SendEmail(string fullname, string email, string subject, string content)
-        {
+//        [HttpPost]
+//        public async Task<IActionResult> SendEmail(string fullname, string email, string subject, string content)
+//        {
 
-            var contactPost = await _contactService.SendContactEmailAsync( fullname,  email,  subject,  content);
+//            var contactPost = await _contactService.SendContactEmailAsync( fullname,  email,  subject,  content);
 
-            return Ok(contactPost);
-        }
-    }
-}
+//            return Ok(contactPost);
+//        }
+//    }
+//}

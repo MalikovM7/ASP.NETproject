@@ -8,9 +8,9 @@ namespace MVC_1.Controllers
     public class HomeController : Controller
     {
 
-        private readonly IServiceServise _service;
+        private readonly IServiceService _service;
         
-        public HomeController(IServiceServise service)
+        public HomeController(IServiceService service)
         {
             _service = service;
         }
