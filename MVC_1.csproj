@@ -44,7 +44,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Application\Application.csproj" />
     <ProjectReference Include="..\Domain\Domain.csproj" />
-    <ProjectReference Include="..\Infrastrcuture\Infrastrcuture.csproj" />
+    <ProjectReference Include="..\Infrastrcuture\Persistence.csproj" />
   </ItemGroup>
 
 </Project>

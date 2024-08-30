@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Autofac/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "7.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Core/1.35.0": {
         "type": "package",
         "dependencies": {
@@ -3641,7 +3657,6 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Domain": "1.0.0",
-          "Infrastrcuture": "1.0.0",
           "MailKit": "4.7.1.1",
           "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
           "Microsoft.AspNetCore.Hosting": "2.2.7",
@@ -3649,7 +3664,8 @@
           "Microsoft.EntityFrameworkCore.InMemory": "8.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7",
           "Microsoft.Extensions.Hosting": "8.0.0",
-          "MimeKit": "4.7.1"
+          "MimeKit": "4.7.1",
+          "Persistence": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Application.dll": {}
@@ -3677,10 +3693,11 @@
           "bin/placeholder/Domain.dll": {}
         }
       },
-      "Infrastrcuture/1.0.0": {
+      "Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Autofac": "8.0.0",
           "Domain": "1.0.0",
           "MailKit": "4.7.1.1",
           "Microsoft.AspNetCore.Hosting": "2.2.7",
@@ -3691,15 +3708,38 @@
           "MimeKit": "4.7.1"
         },
         "compile": {
-          "bin/placeholder/Infrastrcuture.dll": {}
+          "bin/placeholder/Persistence.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Infrastrcuture.dll": {}
+          "bin/placeholder/Persistence.dll": {}
         }
       }
     }
   },
   "libraries": {
+    "Autofac/8.0.0": {
+      "sha512": "qxVqJcl3fixxa5aZc9TmIuYTwooI9GCL5RzfUiTZtTlbAF3NcWz7bPeEyJEAyS/0qGhSyGnXeku2eiu/7L+3qw==",
+      "type": "package",
+      "path": "autofac/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "autofac.8.0.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net6.0/Autofac.dll",
+        "lib/net6.0/Autofac.xml",
+        "lib/net7.0/Autofac.dll",
+        "lib/net7.0/Autofac.xml",
+        "lib/net8.0/Autofac.dll",
+        "lib/net8.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
     "Azure.Core/1.35.0": {
       "sha512": "hENcx03Jyuqv05F4RBEPbxz29UrM3Nbhnr6Wl6NQpoU9BCIbL3XLentrxDCTrH54NLS11Exxi/o8MYgT/cnKFA==",
       "type": "package",
@@ -9954,17 +9994,16 @@
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
     },
-    "Infrastrcuture/1.0.0": {
+    "Persistence/1.0.0": {
       "type": "project",
-      "path": "../Infrastrcuture/Infrastrcuture.csproj",
-      "msbuildProject": "../Infrastrcuture/Infrastrcuture.csproj"
+      "path": "../Infrastrcuture/Persistence.csproj",
+      "msbuildProject": "../Infrastrcuture/Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Application >= 1.0.0",
       "Domain >= 1.0.0",
-      "Infrastrcuture >= 1.0.0",
       "MailKit >= 4.7.1.1",
       "Microsoft.AspNetCore.Hosting >= 2.2.7",
       "Microsoft.EntityFrameworkCore >= 8.0.7",
@@ -9975,7 +10014,8 @@
       "Microsoft.Extensions.Hosting >= 8.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.20.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.3",
-      "MimeKit >= 4.7.1"
+      "MimeKit >= 4.7.1",
+      "Persistence >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10017,8 +10057,8 @@
             "C:\\Users\\vuqar\\source\\repos\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\vuqar\\source\\repos\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Infrastrcuture.csproj": {
-              "projectPath": "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Infrastrcuture.csproj"
+            "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Persistence.csproj"
             }
           }
         }

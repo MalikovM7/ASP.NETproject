@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\Domain\Domain.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resume.Infrastructure", "Resume.Infrastructure", "{E36AB383-C2BB-437F-879F-BEECCCE166F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastrcuture", "..\Infrastrcuture\Infrastrcuture.csproj", "{0509983F-D828-4602-BB18-90BC986A6973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "..\Infrastrcuture\Persistence.csproj", "{0509983F-D828-4602-BB18-90BC986A6973}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resume.Application", "Resume.Application", "{C5AD04FD-58C4-4D86-8912-CCBAB079BE9B}"
 EndProject

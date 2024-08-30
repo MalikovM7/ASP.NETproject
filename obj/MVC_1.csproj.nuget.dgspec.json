@@ -36,8 +36,8 @@
               "C:\\Users\\vuqar\\source\\repos\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\vuqar\\source\\repos\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Infrastrcuture.csproj": {
-                "projectPath": "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Infrastrcuture.csproj"
+              "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Persistence.csproj"
               }
             }
           }
@@ -217,12 +217,12 @@
         }
       }
     },
-    "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Infrastrcuture.csproj": {
+    "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Infrastrcuture.csproj",
-        "projectName": "Infrastrcuture",
-        "projectPath": "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Infrastrcuture.csproj",
+        "projectUniqueName": "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Persistence.csproj",
         "packagesPath": "C:\\Users\\vuqar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\obj\\",
         "projectStyle": "PackageReference",
@@ -267,6 +267,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "MailKit": {
               "target": "Package",
               "version": "[4.7.1.1, )"
@@ -357,8 +361,8 @@
               "C:\\Users\\vuqar\\source\\repos\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\vuqar\\source\\repos\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Infrastrcuture.csproj": {
-                "projectPath": "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Infrastrcuture.csproj"
+              "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Persistence.csproj"
               }
             }
           }
