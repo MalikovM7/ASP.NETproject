@@ -2,42 +2,54 @@ using Application.Services.Interfaces;
 using Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using WebUI.Models;
 
 namespace MVC_1.Controllers
 {
     public class HomeController : Controller
     {
 
-        private readonly IServiceService _service;
-        
-        public HomeController(IServiceService service)
+        private readonly IContactPostService contactPostService;
+        private readonly IServiceService serviceService;
+
+
+        public HomeController(IContactPostService contactPostService,
+                IServiceService serviceService)
         {
-            _service = service;
+            this.contactPostService = contactPostService;
+            this.serviceService = serviceService;
+           
         }
         [HttpGet]
-        public async  Task<IActionResult> Index()
+        public async Task<IActionResult> Index()
         {
-            var data = await _service.GetAllService();
-            return View(data);
+            var services = await serviceService.GetAllAsync();
+        
+
+            var vm = new HomeGetAllViewModel
+            {
+                Services = services
+            };
+
+
+            return View(vm);
         }
 
-        public async Task<IActionResult> CreateService()
+        public IActionResult Contact()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateService(ServiceModel model)
+        public IActionResult Contact(string name, string email, string subject, string content)
         {
-            var data = await _service.CreateService(model);
-            return RedirectToAction("Index", "Home");
-        }
+            var response = contactPostService.Add(name, email, subject, content);
 
-
-        public IActionResult Edit()
-        {
-            return View();
-
+            return Json(new
+            {
+                error = false,
+                message = response
+            });
         }
 
 
