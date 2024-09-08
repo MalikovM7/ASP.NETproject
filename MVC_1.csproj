@@ -18,10 +18,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\error\fonts\fontawesome-webfont5b62.svg" />
+    <None Include="wwwroot\error\fonts\fontawesome-webfont5b62.woff2" />
+    <None Include="wwwroot\error\js\bootstrap.min.js" />
+    <None Include="wwwroot\error\js\bubble.js" />
+    <None Include="wwwroot\error\js\jquery.mb.YTPlayer.js" />
+    <None Include="wwwroot\error\js\jquery.min.js" />
+    <None Include="wwwroot\error\js\mozaic.js" />
+    <None Include="wwwroot\error\js\particles.js" />
+    <None Include="wwwroot\error\js\vegas-youtube.js" />
     <None Include="wwwroot\js\myJs.js" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.1.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
     <PackageReference Include="MailKit" Version="4.7.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
@@ -45,7 +55,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
     <ProjectReference Include="..\Infrastrcuture\Persistence.csproj" />
-    <ProjectReference Include="..\Services\Services.csproj" />
+    <ProjectReference Include="..\Services.Implementation\Services.Implementation.csproj" />
   </ItemGroup>
 
 </Project>

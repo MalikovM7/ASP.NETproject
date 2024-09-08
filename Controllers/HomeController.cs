@@ -1,7 +1,6 @@
 using Application.Services.Interfaces;
-using Domain.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+using Services.Skills;
 using WebUI.Models;
 
 namespace MVC_1.Controllers
@@ -11,23 +10,26 @@ namespace MVC_1.Controllers
 
         private readonly IContactPostService contactPostService;
         private readonly IServiceService serviceService;
-
+        private readonly ISkillService skillService;
 
         public HomeController(IContactPostService contactPostService,
-                IServiceService serviceService)
+            IServiceService serviceService,
+            ISkillService skillService)
         {
             this.contactPostService = contactPostService;
             this.serviceService = serviceService;
-           
+            this.skillService = skillService;
         }
+
         [HttpGet]
         public async Task<IActionResult> Index()
         {
             var services = await serviceService.GetAllAsync();
-        
+            var skills = await skillService.GetAllAsync();
 
             var vm = new HomeGetAllViewModel
             {
+                Skills = skills,
                 Services = services
             };
 

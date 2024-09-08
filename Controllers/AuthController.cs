@@ -4,6 +4,7 @@ using Domain.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
+using Services.Common;
 
 namespace MVC_1.Controllers
 {

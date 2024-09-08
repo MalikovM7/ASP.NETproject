@@ -9,17 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\Domain\Domain.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resume.Infrastructure", "Resume.Infrastructure", "{E36AB383-C2BB-437F-879F-BEECCCE166F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "..\Infrastrcuture\Persistence.csproj", "{0509983F-D828-4602-BB18-90BC986A6973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "..\Infrastrcuture\Infrastructure.csproj", "{0509983F-D828-4602-BB18-90BC986A6973}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resume.Application", "Resume.Application", "{C5AD04FD-58C4-4D86-8912-CCBAB079BE9B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resume.Presentation", "Resume.Presentation", "{A5FA562A-7368-491D-A2BC-DC62B74E504F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "..\Repository\Repository.csproj", "{96A9CB01-42B0-4F44-9C98-8FB1974D0214}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "..\Repository\Repository.csproj", "{96A9CB01-42B0-4F44-9C98-8FB1974D0214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "..\Services\Services.csproj", "{1ADF61BB-42D5-475D-8E75-8F8F9F00D487}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "..\Services\Services.csproj", "{1ADF61BB-42D5-475D-8E75-8F8F9F00D487}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Implementation", "..\Services.Implementation\Services.Implementation.csproj", "{DC0ED89A-9AFB-4769-B89E-8F72D7ABE328}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Implementation", "..\Services.Implementation\Services.Implementation.csproj", "{DC0ED89A-9AFB-4769-B89E-8F72D7ABE328}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

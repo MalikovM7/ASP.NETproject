@@ -1,4 +1,5 @@
 using Domain.Configurations;
+using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using WebUI;
 using WebUI.Filters;
@@ -20,7 +21,7 @@ namespace MVC_1
 
             builder.Services.AddRouting(cfg => cfg.LowercaseUrls = true);
 
-            builder.Services.AddDbContext<DbContext>(cfg =>
+            builder.Services.AddDbContext<AppDbContext>(cfg =>
             {
                 cfg.UseSqlServer(builder.Configuration.GetConnectionString("cString"));
             });
@@ -40,8 +41,8 @@ namespace MVC_1
 
 
 
-            app.MapControllerRoute(name: "areas",
-                pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+            //app.MapControllerRoute(name: "areas",
+            //    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
             app.MapControllerRoute(name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

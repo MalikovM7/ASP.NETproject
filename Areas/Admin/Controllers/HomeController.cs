@@ -21,19 +21,19 @@ namespace MVC_1.Areas.Admin.Controllers
             return View();
         }
 
-        public async Task<IActionResult> CreateService()
-        {
-            return View();
-        }
+        //public async Task<IActionResult> CreateService()
+        //{
+        //    return View();
+        //}
 
-        [HttpPost]
-        public async Task<IActionResult> CreateService(ServiceModel model)
-        {
-            var data = await _service.CreateService(model);
-            return RedirectToAction("Index", "Home");
+        //[HttpPost]
+        //public async Task<IActionResult> CreateService(ServiceModel model)
+        //{
+        //    var data = await _service.CreateService(model);
+        //    return RedirectToAction("Index", "Home");
 
-            //return Json(model);
-        }
+        //    //return Json(model);
+        //}
 
         [HttpGet]
 

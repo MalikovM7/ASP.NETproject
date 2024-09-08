@@ -1,5 +1,5 @@
-﻿using Application.Services.Interfaces;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Services.BlogPosts;
 
 namespace MVC_1.Controllers
 {
