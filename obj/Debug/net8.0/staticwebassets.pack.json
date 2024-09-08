@@ -9,56 +9,236 @@
       "PackagePath": "staticwebassets\\assets\\Templates\\EmailTemplate.html"
     },
     {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\css\\font-awesome.min.css",
-      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\css\\fonts\\glyphicons-halflings-regular-2.html",
-      "PackagePath": "staticwebassets\\css\\fonts\\glyphicons-halflings-regular-2.html"
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\css\\fonts\\glyphicons-halflings-regular-2.html",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\glyphicons-halflings-regular-2.html"
     },
     {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\css\\fonts\\glyphicons-halflings-regular-3.html",
-      "PackagePath": "staticwebassets\\css\\fonts\\glyphicons-halflings-regular-3.html"
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\css\\fonts\\glyphicons-halflings-regular-3.html",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\glyphicons-halflings-regular-3.html"
     },
     {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\css\\fonts\\glyphicons-halflings-regular-4.html",
-      "PackagePath": "staticwebassets\\css\\fonts\\glyphicons-halflings-regular-4.html"
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\css\\fonts\\glyphicons-halflings-regular-4.html",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\glyphicons-halflings-regular-4.html"
     },
     {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\css\\fonts\\glyphicons-halflings-regular-5.html",
-      "PackagePath": "staticwebassets\\css\\fonts\\glyphicons-halflings-regular-5.html"
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\css\\fonts\\glyphicons-halflings-regular-5.html",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\glyphicons-halflings-regular-5.html"
     },
     {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\css\\fonts\\glyphicons-halflings-regular.html",
-      "PackagePath": "staticwebassets\\css\\fonts\\glyphicons-halflings-regular.html"
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\css\\fonts\\glyphicons-halflings-regular.html",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\glyphicons-halflings-regular.html"
     },
     {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\css\\fonts\\glyphicons-halflings-regulard41d.html",
-      "PackagePath": "staticwebassets\\css\\fonts\\glyphicons-halflings-regulard41d.html"
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\css\\fonts\\glyphicons-halflings-regulard41d.html",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\glyphicons-halflings-regulard41d.html"
     },
     {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\css\\images\\controls.html",
-      "PackagePath": "staticwebassets\\css\\images\\controls.html"
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\css\\images\\controls.html",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\controls.html"
     },
     {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\css\\ionicons.min.css",
-      "PackagePath": "staticwebassets\\css\\ionicons.min.css"
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ionicons.min.css"
     },
     {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\css\\main.css",
-      "PackagePath": "staticwebassets\\css\\main.css"
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
     },
     {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\css\\responsive.css",
-      "PackagePath": "staticwebassets\\css\\responsive.css"
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
     },
     {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\fonts\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\fonts\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\fonts\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\fonts\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\fonts\\Simple-Line-Iconsd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Iconsd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\fonts\\fontawesome-webfont93e3.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont93e3.eot"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\fonts\\fontawesome-webfont93e3.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont93e3.html"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\fonts\\fontawesome-webfont93e3.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont93e3.svg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\fonts\\fontawesome-webfont93e3.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont93e3.ttf"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\fonts\\fontawesome-webfont93e3.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont93e3.woff"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\fonts\\ionicons28b5.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.eot"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\fonts\\ionicons28b5.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.svg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\fonts\\ionicons28b5.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.ttf"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\fonts\\ionicons28b5.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.woff"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\blog-img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\blog-img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\blog-img-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\company-logo-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\company-logo-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\company-logo-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\company-logo-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\parallax-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\parallax-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\pdf-icon.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pdf-icon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\portfolio\\5\\img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\5\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\portfolio\\5\\img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\5\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\portfolio\\5\\img-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\5\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\portfolio\\5\\img-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\5\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\portfolio\\5\\img-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\5\\img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\portfolio\\5\\img-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\5\\img-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\portfolio\\5\\img-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\5\\img-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\portfolio\\5\\img-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\5\\img-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\post-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\small-img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\small-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\small-img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\small-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\small-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\small-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\images\\word-icon.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\word-icon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\js\\vendors\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendors\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\js\\vendors\\jquery.isotope.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendors\\jquery.isotope.min.js"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\js\\vendors\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendors\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\js\\vendors\\map.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendors\\map.js"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\js\\vendors\\modernizr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendors\\modernizr.js"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\assets\\js\\vendors\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendors\\owl.carousel.min.js"
     },
     {
       "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\error-pages\\404.html",
@@ -159,186 +339,6 @@
     {
       "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\fonts\\Simple-Line-Icons.eot",
-      "PackagePath": "staticwebassets\\fonts\\Simple-Line-Icons.eot"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\fonts\\Simple-Line-Icons.svg",
-      "PackagePath": "staticwebassets\\fonts\\Simple-Line-Icons.svg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\fonts\\Simple-Line-Icons.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Simple-Line-Icons.ttf"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\fonts\\Simple-Line-Icons.woff",
-      "PackagePath": "staticwebassets\\fonts\\Simple-Line-Icons.woff"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\fonts\\Simple-Line-Iconsd41d.eot",
-      "PackagePath": "staticwebassets\\fonts\\Simple-Line-Iconsd41d.eot"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\fonts\\fontawesome-webfont93e3.eot",
-      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont93e3.eot"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\fonts\\fontawesome-webfont93e3.html",
-      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont93e3.html"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\fonts\\fontawesome-webfont93e3.svg",
-      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont93e3.svg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\fonts\\fontawesome-webfont93e3.ttf",
-      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont93e3.ttf"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\fonts\\fontawesome-webfont93e3.woff",
-      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont93e3.woff"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\fonts\\fontawesome-webfontd41d.eot",
-      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfontd41d.eot"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\fonts\\ionicons28b5.eot",
-      "PackagePath": "staticwebassets\\fonts\\ionicons28b5.eot"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\fonts\\ionicons28b5.svg",
-      "PackagePath": "staticwebassets\\fonts\\ionicons28b5.svg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\fonts\\ionicons28b5.ttf",
-      "PackagePath": "staticwebassets\\fonts\\ionicons28b5.ttf"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\fonts\\ionicons28b5.woff",
-      "PackagePath": "staticwebassets\\fonts\\ionicons28b5.woff"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\avatar-1.jpg",
-      "PackagePath": "staticwebassets\\images\\avatar-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\avatar-2.jpg",
-      "PackagePath": "staticwebassets\\images\\avatar-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\blog-img-1.jpg",
-      "PackagePath": "staticwebassets\\images\\blog-img-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\blog-img-2.jpg",
-      "PackagePath": "staticwebassets\\images\\blog-img-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\blog-img-3.jpg",
-      "PackagePath": "staticwebassets\\images\\blog-img-3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\company-logo-1.jpg",
-      "PackagePath": "staticwebassets\\images\\company-logo-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\company-logo-2.jpg",
-      "PackagePath": "staticwebassets\\images\\company-logo-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\img-1.jpg",
-      "PackagePath": "staticwebassets\\images\\img-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\parallax-bg.jpg",
-      "PackagePath": "staticwebassets\\images\\parallax-bg.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\pdf-icon.jpg",
-      "PackagePath": "staticwebassets\\images\\pdf-icon.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\portfolio\\5\\img-1.jpg",
-      "PackagePath": "staticwebassets\\images\\portfolio\\5\\img-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\portfolio\\5\\img-2.jpg",
-      "PackagePath": "staticwebassets\\images\\portfolio\\5\\img-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\portfolio\\5\\img-3.jpg",
-      "PackagePath": "staticwebassets\\images\\portfolio\\5\\img-3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\portfolio\\5\\img-4.jpg",
-      "PackagePath": "staticwebassets\\images\\portfolio\\5\\img-4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\portfolio\\5\\img-5.jpg",
-      "PackagePath": "staticwebassets\\images\\portfolio\\5\\img-5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\portfolio\\5\\img-7.jpg",
-      "PackagePath": "staticwebassets\\images\\portfolio\\5\\img-7.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\portfolio\\5\\img-8.jpg",
-      "PackagePath": "staticwebassets\\images\\portfolio\\5\\img-8.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\portfolio\\5\\img-9.jpg",
-      "PackagePath": "staticwebassets\\images\\portfolio\\5\\img-9.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\post-img.jpg",
-      "PackagePath": "staticwebassets\\images\\post-img.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\small-img-1.jpg",
-      "PackagePath": "staticwebassets\\images\\small-img-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\small-img-2.jpg",
-      "PackagePath": "staticwebassets\\images\\small-img-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\small-img.jpg",
-      "PackagePath": "staticwebassets\\images\\small-img.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\images\\word-icon.jpg",
-      "PackagePath": "staticwebassets\\images\\word-icon.jpg"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\js\\main.js",
-      "PackagePath": "staticwebassets\\js\\main.js"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\js\\vendors\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\js\\vendors\\bootstrap.min.js"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\js\\vendors\\jquery.isotope.min.js",
-      "PackagePath": "staticwebassets\\js\\vendors\\jquery.isotope.min.js"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\js\\vendors\\jquery\\jquery.min.js",
-      "PackagePath": "staticwebassets\\js\\vendors\\jquery\\jquery.min.js"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\js\\vendors\\map.js",
-      "PackagePath": "staticwebassets\\js\\vendors\\map.js"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\js\\vendors\\modernizr.js",
-      "PackagePath": "staticwebassets\\js\\vendors\\modernizr.js"
-    },
-    {
-      "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\js\\vendors\\owl.carousel.min.js",
-      "PackagePath": "staticwebassets\\js\\vendors\\owl.carousel.min.js"
     },
     {
       "Id": "C:\\Users\\vuqar\\source\\repos\\MVC_1\\wwwroot\\lib\\bootstrap\\LICENSE",

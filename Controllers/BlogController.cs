@@ -12,7 +12,7 @@ namespace MVC_1.Controllers
             this.blogPostService = blogPostService;
         }
 
-        public IActionResult Blog()
+        public IActionResult Index()
         {
             var response = blogPostService.GetAllAsync();
             return View(response);

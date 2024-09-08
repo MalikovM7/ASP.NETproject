@@ -10108,6 +10108,7 @@
       "Autofac >= 8.1.0",
       "Autofac.Extensions.DependencyInjection >= 10.0.0",
       "Domain >= 1.0.0",
+      "Infrastructure >= 1.0.0",
       "MailKit >= 4.7.1.1",
       "Microsoft.AspNetCore.Hosting >= 2.2.7",
       "Microsoft.EntityFrameworkCore >= 8.0.7",
@@ -10158,6 +10159,9 @@
           "projectReferences": {
             "C:\\Users\\vuqar\\source\\repos\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\vuqar\\source\\repos\\Domain\\Domain.csproj"
+            },
+            "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Infrastructure.csproj"
             },
             "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Persistence.csproj": {
               "projectPath": "C:\\Users\\vuqar\\source\\repos\\Infrastrcuture\\Persistence.csproj"

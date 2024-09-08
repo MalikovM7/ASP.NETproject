@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using Infrastrcuture;
 using Microsoft.AspNetCore.Identity;
 using Persistence;
 using Services.Implementation.Registration;

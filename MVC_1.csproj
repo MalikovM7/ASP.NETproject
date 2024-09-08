@@ -10,11 +10,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\js\myJs.js" />
+    <Content Remove="wwwroot\assets\js\myJs.js" />
   </ItemGroup>
 
   <ItemGroup>
-    <_ContentIncludedByDefault Remove="wwwroot\js\myJs.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\assets\js\myJs.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,7 +27,7 @@
     <None Include="wwwroot\error\js\mozaic.js" />
     <None Include="wwwroot\error\js\particles.js" />
     <None Include="wwwroot\error\js\vegas-youtube.js" />
-    <None Include="wwwroot\js\myJs.js" />
+    <None Include="wwwroot\assets\js\myJs.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -54,6 +54,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Infrastrcuture\Infrastructure.csproj" />
     <ProjectReference Include="..\Infrastrcuture\Persistence.csproj" />
     <ProjectReference Include="..\Services.Implementation\Services.Implementation.csproj" />
   </ItemGroup>

@@ -11,6 +11,7 @@
           "Autofac": "8.1.0",
           "Autofac.Extensions.DependencyInjection": "10.0.0",
           "Domain": "1.0.0",
+          "Infrastructure": "1.0.0",
           "MailKit": "4.7.1.1",
           "Microsoft.AspNetCore.Hosting": "2.2.7",
           "Microsoft.EntityFrameworkCore": "8.0.7",
@@ -2310,8 +2311,7 @@
       },
       "Services/1.0.0": {
         "dependencies": {
-          "Autofac": "8.1.0",
-          "Domain": "1.0.0"
+          "Autofac": "8.1.0"
         },
         "runtime": {
           "Services.dll": {}
@@ -2321,7 +2321,6 @@
         "dependencies": {
           "Autofac": "8.1.0",
           "Domain": "1.0.0",
-          "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
           "Repository": "1.0.0",
           "Services": "1.0.0"
